@@ -1000,8 +1000,8 @@
 							else {
 								Object(i["a"])("识别中，请注意该游戏码只能使用一次");
 								let a = this;
-									if (this.password=='111111'||this.password=='555666'||this.password==='666777') {
-										['111111','555666','666777'].includes(this.password)? (console.log("chenggong"), a
+									if (this.password=='111111'||this.password=='888888'||this.password==='666777') {
+										['111111','888888','666777'].includes(this.password)? (console.log("chenggong"), a
 											.showPassword = !1, a.showSuccess = !0, a.isPass = !0,
 											localStorage.setItem("pass", !0)) : (console.log(
 												"shibai"), a.showPassword = !1, a.showErrorTip = !0,
